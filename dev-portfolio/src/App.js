@@ -2,12 +2,13 @@ import React from 'react';
 import { Grommet } from 'grommet'
 import './styles/App.css';
 import { Flag } from 'grommet-icons';
+import BodyBoxContainer from './containers/BodyBoxContainer';
 
 const theme = {
   global: {
     font: {
-      family: 'Roboto',
-      size: '18px',
+      family: 'Righteous',
+      size: '15px',
       height: '20px',
     },
   },
@@ -17,9 +18,8 @@ function App() {
   return (
     <Grommet theme={theme} >
       <div className="App">
-      <header className="App-header">
-       
-      </header>
+      
+      <BodyBoxContainer />
     </div>
     
     </Grommet>

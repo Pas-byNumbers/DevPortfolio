@@ -8,6 +8,7 @@ body {
   background: radial-gradient(circle, rgba(221,191,37,1) 33%, rgba(255,175,13,1) 70%, rgba(26,2,84,0.9332107843137255) 82%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ddbf25",endColorstr="#1a0254",GradientType=1);
   margin: 0;
+ 
 }
 
 html, body {
