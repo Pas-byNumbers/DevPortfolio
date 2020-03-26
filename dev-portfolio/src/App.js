@@ -8,7 +8,7 @@ const theme = {
   global: {
     font: {
       family: 'Righteous',
-      size: '15px',
+      size: '16px',
       height: '20px',
     },
   },

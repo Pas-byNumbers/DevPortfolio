@@ -1,13 +1,11 @@
 import {
-  Accordion,
   Box,
-  AccordionPanel,
-  Text,
   Tabs,
   Tab
 } from 'grommet'
 import React from 'react'
 import ProfileContainer from '../containers/ProfileContainer'
+import ProjectsContainer from '../containers/ProjectsContainer'
 
 const Nav = () => {
 
@@ -27,7 +25,9 @@ const Nav = () => {
     </Box>
   </Tab>
   <Tab title="Projects">
-    <Box pad="medium">Two</Box>
+    <Box pad="medium">
+    <ProjectsContainer />
+    </Box>
   </Tab>
   <Tab title="Areas of Interest">
     <Box pad="medium">Three</Box>
