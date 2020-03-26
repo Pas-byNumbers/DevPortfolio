@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid, Box, Text } from "grommet";
-import { Paint, Brush } from 'grommet-icons'
+import { Secure, DocumentLocked } from 'grommet-icons'
 
-const Interest3 = () => {
+const Interest4 = () => {
   return (
     <div>
       <Grid
@@ -16,19 +16,17 @@ const Interest3 = () => {
         ]}
       >
         {/* <Box gridArea="header" background="brand" /> */}
-        <Box gridArea="nav"  align='center' justify='center' direction='row'>
-          <Paint size='large' color='brand' />
-          <Brush size='large' color='brand' />
+        <Box gridArea="nav"  align='center' justify='center'>
+          <DocumentLocked size='large' color='brand' />
         </Box>
         <Box gridArea="main">
           <Text>
-            UI/UX
+            Application Security
           </Text>
           <Text color='dark-2'>
            <p>
-            First attempted some basic UI design on my MotiveRate project.
-            Ever since, I have anticipated learning more about Figma and wireframing as
-            these areas would complement my web development skills.
+            I've always been curious about cyber security and its crucial presence within technology.
+            Furthering my research, I've delivered a presentation on common cyber attacks at Flatiron and started practicing more defensive measures when developing my applications
           </p> 
           </Text>
           
@@ -38,4 +36,4 @@ const Interest3 = () => {
   );
 };
 
-export default Interest3;
+export default Interest4;
