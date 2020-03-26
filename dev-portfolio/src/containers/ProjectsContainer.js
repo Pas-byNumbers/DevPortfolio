@@ -18,8 +18,8 @@ const ProjectsContainer = () => {
   </AccordionPanel>
   <AccordionPanel label="In Development">
   <Box direction="row-responsive" gap="xsmall" margin="small">
-      <InDevProject1 />
       <InDevProject2 />
+      <InDevProject1 />
       </Box>
   </AccordionPanel>
 </Accordion>

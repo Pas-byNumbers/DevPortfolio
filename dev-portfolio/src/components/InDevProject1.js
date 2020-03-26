@@ -31,9 +31,9 @@ const InDevProject1 = () => {
   <p>A media app and e-commerce site to promote music services, tracks, live shows and recent experiences.
   <br />
   <br />
-  <em>It will be possible to sample tracks and preview a buyer's contract before any online purchase</em>
+  <em>Possible to sample tracks and preview PDF contracts</em>
   <ul>
-    <li>MongoDb</li>
+    <li>MongoDB</li>
     <li>Node + Express.js</li>
     <li>React</li>
   </ul>
