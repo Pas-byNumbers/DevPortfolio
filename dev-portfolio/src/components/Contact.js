@@ -32,7 +32,7 @@ const Contact = () => {
           </a>{" "}
           -{" "}
           <a 
-          href="https://drive.google.com/file/d/1bNJdQqxLrLOg-HocwvIxnwctRiPUT2wD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Rt9OJyCr8-IZugSXL3vEqSRuuM5sq2-l/view?usp=sharing"
           rel="noopener noreferrer" target="_blank"
           >
             docx version
@@ -42,18 +42,18 @@ const Contact = () => {
       {/* <br /> */}
       <br />
       <Box {...stylesObj.linksDiv}>
-        <Box {...stylesObj.linksBox} onClick={() => {}}>
+        <Box {...stylesObj.linksBox} onClick={() => {}} hoverIndicator={{color: '#F6D429'}} round='xsmall'>
         <a href="http://www.medium.com/@pasbynumbers" rel="noopener noreferrer" target="_blank">
           <Medium color="plain" size="large"/>
         </a>
           
         </Box>
-        <Box {...stylesObj.linksBox} onClick={() => {}}>
+        <Box {...stylesObj.linksBox} onClick={() => {}} hoverIndicator={{color: '#F6D429'}} round='xsmall'>
         <a href="https://www.linkedin.com/in/pascal-rassaby-60265929" rel="noopener noreferrer" target="_blank">
           <Linkedin color="plain" size="large" />
         </a>
         </Box>
-        <Box {...stylesObj.linksBox} onClick={() => {}}>
+        <Box {...stylesObj.linksBox} onClick={() => {}} hoverIndicator={{color: '#F6D429'}} round='xsmall'>
         <a href="http://www.github.com/Pas-byNumbers" rel="noopener noreferrer" target="_blank">
            <Github color="plain" size="large" />
         </a>

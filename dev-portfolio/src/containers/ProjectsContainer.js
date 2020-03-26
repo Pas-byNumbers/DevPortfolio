@@ -9,7 +9,7 @@ import InDevProject2 from "../components/InDevProject2";
 const ProjectsContainer = () => {
   return (
     <div>
-      <Accordion animate='true' >
+      <Accordion animate='true' alignSelf='start'>
   <AccordionPanel label="Completed">
      <Box direction="row-responsive" gap="xsmall" margin="small">
         <CompleteProject1 />
