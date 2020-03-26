@@ -28,8 +28,8 @@ const Interest1 = () => {
           </Text>
           <Text color='dark-2'>
            <p>
-            Started really getting my feet wet in programming once I moved<br /> from CLI applications in Ruby to a full MVC framework.<br />
-            I've now developed a strong interest towards JS frameworks, <br />particularly MERN stack
+            Started really getting my feet wet in programming once I moved<br /> from CLI applications in Ruby to a full MVC framework in Rails.<br />
+            I've now developed a keen inclination towards JS frameworks, <br />particularly MERN stack
           </p> 
           </Text>
           

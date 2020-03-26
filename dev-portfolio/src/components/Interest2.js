@@ -29,8 +29,8 @@ const Interest2 = () => {
           </Text>
           <Text color='dark-2'>
            <p>
-            Through web development, I've recently discovered the importance <br />of mobile-responsive applications, hence
-            making this portfolio site<br /> a mobile-friendly resource. Eventually I will pick up Flutter<br /> as a new language in order to create
+            Through web development, I've recently discovered the necessity <br />of mobile-responsive applications, hence
+            making this portfolio site<br /> a mobile-friendly resource. Eventually I will also pick up Flutter<br /> as a new language in order to create
             cross-platform titles
           </p> 
           </Text>
