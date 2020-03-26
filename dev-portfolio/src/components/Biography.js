@@ -10,7 +10,7 @@ const Biography = () => {
       with homebrew 
       applications on my games consoles when I was<br /> young eventually led to a strong enthusiasm towards how technology works.</p>
       <p>
-       I also developed a passion towards creating music with both hardware and software, seeing how technology fits within<br /> other industries, eventually leading to my own business where I extended my services to support aspiring artists.
+       I also developed a passion for creating music with both hardware and software, seeing how technology fits within<br /> other industries, soon I was pioneering my own business where I extended my services to support aspiring artists.
       </p>
       <p>
         My past experiences have revealed to me the many possibilities that computer code can bring to the world.

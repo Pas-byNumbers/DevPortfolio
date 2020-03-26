@@ -27,7 +27,7 @@ const CompleteProject1 = () => {
       <li>React</li>
       <li>Redux</li>
   </Box> */}
-  <Box gridArea="main" background="light-2" pad="small" align='center' direction='row' round='small'>
+  <Box gridArea="main" background="light-4" pad="small" align='center' direction='row' round='small'>
   <p>A goal motivation app with light social media features as well as a points earning system
   <ul>
     <li>Rails RESFTful API</li>

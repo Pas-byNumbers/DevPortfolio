@@ -27,7 +27,7 @@ const InDevProject2 = () => {
       <li>React</li>
       <li>Redux</li>
   </Box> */}
-  <Box gridArea="main" background="light-2" pad="small" align='center' direction='row' round='small'>
+  <Box gridArea="main" background="light-4" pad="small" align='center' direction='row' round='small'>
   <p>A multi-specialised events company website. Aiming for an appealing minimalist style and simplicity of use. 
   Features will include a gallery and contact form with a quotation system.
   <br />

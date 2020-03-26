@@ -27,7 +27,7 @@ const CompleteProject2 = () => {
       <li>React</li>
       <li>Redux</li>
   </Box> */}
-  <Box gridArea="main" background="light-2" pad='small' align='center' direction='row' round='small'>
+  <Box gridArea="main" background="light-4" pad='small' align='center' direction='row' round='small'>
   <p>Pair-programmed quiz with an animated UI, based on lore from the <em>Harry Potter</em> franchise
   <br />
   <br />

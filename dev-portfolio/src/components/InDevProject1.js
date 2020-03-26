@@ -27,7 +27,7 @@ const InDevProject1 = () => {
       <li>React</li>
       <li>Redux</li>
   </Box> */}
-  <Box gridArea="main" background="light-2" pad="small" align='center' direction='row' round='small'>
+  <Box gridArea="main" background="light-4" pad="small" align='center' direction='row' round='small'>
   <p>A media app and e-commerce site to promote music services, tracks, live shows and recent experiences.
   <br />
   <br />
