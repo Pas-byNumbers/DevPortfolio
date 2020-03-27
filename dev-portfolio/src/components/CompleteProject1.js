@@ -41,12 +41,18 @@ const CompleteProject1 = () => {
   icon={() => {}}
   label="Source Code"
   onClick={() => {}}
+  href="https://github.com/Pas-byNumbers/MotiveRate"
+  rel="noopener noreferrer" 
+  target="_blank"
 />
 
   <Button
   icon={() => {}}
   label="Video Demo"
   onClick={() => {}}
+  href="https://drive.google.com/file/d/1SQIGG3-0n1-uUF49h7EZhNGym8X87MMb/view?usp=sharing"
+  rel="noopener noreferrer" 
+  target="_blank"
 />
   </Box>
  
