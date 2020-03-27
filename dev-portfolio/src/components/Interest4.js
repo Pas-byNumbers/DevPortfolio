@@ -6,9 +6,12 @@ const Interest4 = () => {
   return (
     <div>
       <Grid
-        rows={["xxsmall", "xsmall"]}
-        columns={["xsmall", "large"]}
+        rows={["auto", "auto"]}
+        columns={["xsmall", "auto"]}
         gap="small"
+        align='stretch'
+        justify='stretch'
+        responsive={true}
         areas={[
           // { name: "header", start: [0, 0], end: [1, 0] },
           { name: "nav", start: [0, 1], end: [0, 1] },
@@ -16,17 +19,17 @@ const Interest4 = () => {
         ]}
       >
         {/* <Box gridArea="header" background="brand" /> */}
-        <Box gridArea="nav"  align='center' justify='center'>
+        <Box gridArea="nav"  align='center' justify='center' responsive={true} flex={true}>
           <DocumentLocked size='large' color='brand' />
         </Box>
-        <Box gridArea="main">
+        <Box gridArea="main" justify='center' responsive={true} flex={true} >
           <Text>
             Application Security
           </Text>
           <Text color='dark-2'>
            <p>
-            I've always been curious about cyber security and its crucial presence within technology.
-            Furthering my research, I've delivered a presentation on common cyber attacks at Flatiron and started practicing more defensive measures when developing my applications
+            I've always had an interest towards cyber security and its crucial<br /> importance. 
+            Furthering my research, I've delivered a presentation<br /> on common cyber attacks at Flatiron and started practicing more <br />defensive measures when developing my applications
           </p> 
           </Text>
           

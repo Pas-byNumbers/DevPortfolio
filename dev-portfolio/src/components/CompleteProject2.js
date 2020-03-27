@@ -43,6 +43,9 @@ const CompleteProject2 = () => {
   icon={() => {}}
   label="Source Code"
   onClick={() => {}}
+  href="https://github.com/fedemcmac/hp-app"
+  rel="noopener noreferrer" 
+  target="_blank"
 />
 
   </Box>

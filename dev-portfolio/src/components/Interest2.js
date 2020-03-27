@@ -6,9 +6,12 @@ const Interest2 = () => {
   return (
     <div>
       <Grid
-        rows={["xxsmall", "xsmall"]}
-        columns={["xsmall", "large"]}
+        rows={["auto", "auto"]}
+        columns={["xsmall", "auto"]}
         gap="small"
+        align='stretch'
+        justify='stretch'
+        responsive={true}
         areas={[
           // { name: "header", start: [0, 0], end: [1, 0] },
           { name: "nav", start: [0, 1], end: [0, 1] },
@@ -16,18 +19,18 @@ const Interest2 = () => {
         ]}
       >
         {/* <Box gridArea="header" background="brand" /> */}
-        <Box gridArea="nav"  align='center' justify='center' direction='row'>
+        <Box gridArea="nav"  align='center' justify='center' direction='row' responsive={true} flex={true} alignSelf='stretch'>
           <Apple size='large' color='brand' />
           <Android size='large' color='brand' />
         </Box>
-        <Box gridArea="main">
+        <Box gridArea="main" justify='center' responsive={true} flex={true} alignSelf='stretch'>
           <Text>
             Mobile Development
           </Text>
           <Text color='dark-2'>
            <p>
-            Through web development, I've recently discovered the importance of mobile-responsive applications, hence
-            making this portfolio site a mobile-friendly resource. Eventually I will pick up Flutter as a new language in order to create
+            Through web development, I've recently discovered the necessity <br />of mobile-responsive applications, hence
+            making this portfolio site<br /> a mobile-friendly resource. Eventually I will also pick up Flutter<br /> as a new language in order to create
             cross-platform titles
           </p> 
           </Text>
